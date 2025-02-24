@@ -1,0 +1,54 @@
+@import 'tailwindcss';
+
+.oxygen-light {
+    font-family: 'Oxygen', serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.oxygen-regular {
+    font-family: 'Oxygen', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.oxygen-bold {
+    font-family: 'Oxygen', serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Background color for reference */
+.bg-pink {
+    border-color: #f9c0dc;
+}
+
+/* Green button (Yes) - a soft mint green that complements the pink */
+.btn-green {
+    border: 2px solid #000;
+    color: #000;
+    /* padding: 8px 16px; */
+    border-radius: 6px;
+    font-weight: 400;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-green:hover {
+    border-color: #3d9a80;
+    color: #3d9a80;
+}
+
+/* Red button (No) - a soft red/coral that complements the pink */
+.btn-red {
+    border: 2px solid #000;
+    color: #000;
+    /* padding: 8px 16px; */
+    border-radius: 6px;
+    font-weight: 400;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-red:hover {
+    border-color: #d04a55;
+    color: #d04a55;
+}
