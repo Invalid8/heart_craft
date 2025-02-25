@@ -47,6 +47,7 @@
     "vite": "^6.0.0"
   },
   "dependencies": {
-    "svelte-typewriter": "^3.2.3"
+    "svelte-typewriter": "^3.2.3",
+    "tailwind-merge": "^3.0.2"
   }
 }
